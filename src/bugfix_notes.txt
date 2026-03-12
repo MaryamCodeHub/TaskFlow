@@ -1,0 +1,3 @@
+Bug ID: 1042
+Issue: Null pointer exception during login when password field is empty.
+Fix: Added validation to check for empty strings before hashing.

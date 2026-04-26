@@ -4,7 +4,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'development',
-                    url: ' https://github.com/MaryamCodeHub/TaskFlow.git
+                    url: 'https://github.com/MaryamCodeHub/TaskFlow.git'
             }
         }
         stage('Install Dependencies') {
